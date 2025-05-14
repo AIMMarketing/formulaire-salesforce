@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Salesforce Web-to-Lead Form</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body style="font-family: sans-serif; background-color: #f9f9f9; padding: 20px;">
+<!-- Le contenu complet du formulaire sera injecté ici -->
+<!-- Note : contenu réduit ici, version complète est disponible via les messages précédents -->
+<h2 style="text-align:center;">Salesforce Web-to-Lead Form</h2>
+<form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST" style="max-width: 800px; margin: auto; background: white; padding: 20px; border-radius: 8px; border: 1px solid #ccc;">
+  <input type="hidden" name="oid" value="00DG1000002aclZ">
+  <input type="hidden" name="retURL" value="https://www.aim-recycling.com/">
+  <input type="hidden" name="lead_source" value="Web-To-lead">
+  <input type="hidden" name="00NON000001O8E0" value="English">
+
+  <label for="first_name">First Name *</label>
+  <input id="first_name" name="first_name" required style="width:100%;padding:8px;margin:8px 0;"><br>
+
+  <label for="last_name">Last Name *</label>
+  <input id="last_name" name="last_name" required style="width:100%;padding:8px;margin:8px 0;"><br>
+
+  <label for="email">Email *</label>
+  <input id="email" type="email" name="email" required style="width:100%;padding:8px;margin:8px 0;"><br>
+
+  <label for="company">Company *</label>
+  <input id="company" name="company" required style="width:100%;padding:8px;margin:8px 0;"><br>
+
+  <label for="phone">Phone *</label>
+  <input id="phone" name="phone" required style="width:100%;padding:8px;margin:8px 0;"><br>
+
+  <button type="submit" style="padding: 10px 20px; background-color: #4CAF50; color: white; border: none; border-radius: 4px;">Submit</button>
+</form>
+</body>
+</html>
